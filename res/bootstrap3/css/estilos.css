@@ -1,0 +1,72 @@
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background:#00bfa5;
+	color:#fff;
+	padding:20px 0;
+}
+
+/* -- POST -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:40%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+.ultimas {
+	background: #ffea00;
+	padding: 1px;
+	margin: 0px;
+	text-align: center;
+	font-size: 26px;
+
+}
+.categorias {
+	background: #00bfa5;
+	padding: 1px;
+	margin: 0px;
+	text-align: center;
+	font-size: 26px;
+
+}
+.destacadas {
+	background: #d50000;
+	padding: 1px;
+	margin: 0px;
+	text-align: center;
+	font-size: 26px;
+	color: #ffffff;
+
+}
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
